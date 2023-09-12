@@ -12,7 +12,7 @@ function Index(props) {
 
   useEffect(() => {
     async function getQuestion() {
-      await axios.get('http://localhost:5000/questions/all').then((res) => {
+      await axios.get('https://stackoverflowbackend-xmm8.onrender.com/questions/all').then((res) => {
         // console.log(res.data);
         setQuestions(res.data.data)
       })

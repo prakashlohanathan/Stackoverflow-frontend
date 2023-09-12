@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://stackoverflowbackend-xmm8.onrender.com",
   headers: {
     "Content-type": "application/json"
   }
