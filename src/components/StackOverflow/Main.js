@@ -12,7 +12,7 @@ function Main({ questions }) {
 
     <div id="mainbar" role="main" aria-labelledby="h-all-questions">
       <div className="d-flex fw-wrap mb12">
-        <h1 className="flex--item fl1 fs-headline1 mr12 mb12">All Questions</h1>
+        <h3 className="flex--item fl1 fs-headline1 mr12 mb12">All Questions</h3>
         <div className="aside-cta flex--item mb12 print:d-none">
         <Link to="/add-question">
               <button>Ask Question</button>
