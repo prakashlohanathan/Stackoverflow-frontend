@@ -57,7 +57,8 @@ header {
       display: flex;
       flex-direction: row;
       align-items: center;
-      /* padding: 0px 10px; */
+      justify-content: space-between; 
+      padding: 0px 10px
     }
     
     .header-middle > .header-search-container {
@@ -67,6 +68,7 @@ header {
       background-color: #fff;
       border-radius: 3px;
       border: 1px solid rgba(34, 34, 34, 0.233);
+      align-items: center;
     }
     
     .header-search-container > input {
